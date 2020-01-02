@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Pure theme for Hugo</title>
+    <title>Series on Borko D.</title>
     <link>https://borkod.github.io/series/</link>
-    <description>Recent content in Series on Pure theme for Hugo</description>
+    <description>Recent content in Series on Borko D.</description>
     <generator>Hugo -- gohugo.io</generator>
     
         <atom:link href="https://borkod.github.io/series/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +15,10 @@
       <pubDate>Wed, 01 Jan 2020 18:27:18 -0500</pubDate>
       
       <guid>https://borkod.github.io/2020/01/aws-database-exam/</guid>
-      <description>&lt;p&gt;Blah blah blah&lt;/p&gt;</description>
+      <description>Blah blah blah
+Heading 1 some text
+Heading 2 some other text
+Heading 3 There you go. </description>
     </item>
     
     <item>
