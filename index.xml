@@ -5,21 +5,18 @@
     <link>https://borkod.github.io/</link>
     <description>Recent content on Borko D.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 23:09:45 -0500</lastBuildDate>
     
         <atom:link href="https://borkod.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>AWS Database Specialty Exam Tips</title>
-      <link>https://borkod.github.io/2020/01/aws-database-exam/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <title>AWS Certified Database - Specialty Exam Preparation Guide and Study Tips</title>
+      <link>https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</link>
+      <pubDate>Fri, 03 Jan 2020 23:09:45 -0500</pubDate>
       
-      <guid>https://borkod.github.io/2020/01/aws-database-exam/</guid>
-      <description>Heading 1 some text
-Heading 2 some other text
-Heading 3 Quick update.
-Some more text</description>
+      <guid>https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</guid>
+      <description>AWS Certified Database - Specialty Exam Preparation Guide and Study Tips In late November of 2019, AWS announced a new specialty certification focusing specifically on database technologies. The AWS Certified Database - Specialty Exam beta period started in early December of 2019 with the standard certification exam availability target date being April of 2020. At the start of December, I participated in the beta attempting the beta exams. As of this writing, I do not know my results and whether on not I achieved the certification.</description>
     </item>
     
     <item>
