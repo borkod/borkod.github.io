@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        AWS Certified Database - Specialty Exam Preparation Guide and Study Tips - Borko D.
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="Preparation Guide and Tips for AWS Database Specialty Exam" />
+  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <title>AWS Certified Database - Specialty Exam Preparation Guide and Study Tips - Borko D.</title>
+  
+  
+  <link rel="stylesheet" href="https://borkod.github.io/css/style.min.314d6490456e07943861ecb8c8548f817f1daf62a16c0ce1e7c47227e08bc45d.css">
+  
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+  <meta property="og:title" content="AWS Certified Database - Specialty Exam Preparation Guide and Study Tips" />
+<meta property="og:description" content="Preparation Guide and Tips for AWS Database Specialty Exam" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/" />
+<meta property="article:published_time" content="2020-01-03T23:09:45-05:00" />
+<meta property="article:modified_time" content="2020-01-03T23:09:45-05:00" />
+<meta itemprop="name" content="AWS Certified Database - Specialty Exam Preparation Guide and Study Tips">
+<meta itemprop="description" content="Preparation Guide and Tips for AWS Database Specialty Exam">
+<meta itemprop="datePublished" content="2020-01-03T23:09:45-05:00" />
+<meta itemprop="dateModified" content="2020-01-03T23:09:45-05:00" />
+<meta itemprop="wordCount" content="1214">
+
+
+
+<meta itemprop="keywords" content="AWS,Certification,Database,Study Guide," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AWS Certified Database - Specialty Exam Preparation Guide and Study Tips"/>
+<meta name="twitter:description" content="Preparation Guide and Tips for AWS Database Specialty Exam"/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://borkod.github.io/" target="_blank">
+            <img class="img-circle img-rotate" src="https://borkod.github.io/profile.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Borko D.</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Cloud Solutions Architect</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Ottawa, Canada</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="https://www.b3o.ca">
+                    <i class="icon icon-users"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-donate">
+                <a href="https://www.buymeacoffee.com/borkod">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">Buy Me A Coffee</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-email">
+                <a href="mailto:borkod@b3o.ca">
+                    <i class="icon icon-email"></i>
+                  <span class="menu-title">Contact</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://borkod.github.io/tags/aws/" class="tag-list-link">aws</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://borkod.github.io/tags/certification/" class="tag-list-link">certification</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://borkod.github.io/tags/database/" class="tag-list-link">database</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://borkod.github.io/tags/study-guide/" class="tag-list-link">study-guide</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/" class="title">AWS Certified Database - Specialty Exam Preparation Guide and Study Tips</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-03 23:09:45 -0500 EST" itemprop="datePublished">2020-01-03</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2020/01/aws-certified-database-specialty-exam-guide/"
+    >AWS Certified Database - Specialty Exam Preparation Guide and Study Tips</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/" class="article-date">
+  <time datetime="2020-01-03 23:09:45 -0500 EST" itemprop="datePublished">2020-01-03</time>
+</a>
+</span>
+  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/aws/"> AWS </a>
+    <a class="article-tag-link" href="/tags/certification/"> Certification </a>
+    <a class="article-tag-link" href="/tags/database/"> Database </a>
+    <a class="article-tag-link" href="/tags/study-guide/"> Study Guide </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/01/aws-certified-database-specialty-exam-guide/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1214words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 6minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h1 id="aws-certified-database---specialty-exam-preparation-guide-and-study-tips">AWS Certified Database - Specialty Exam Preparation Guide and Study Tips</h1>
+<p>In late November of 2019, AWS <a href="https://aws.amazon.com/blogs/database/new-aws-certification-purpose-built-to-validate-database-expertise/">announced</a> a new specialty certification focusing specifically on database technologies.  The AWS Certified Database - Specialty Exam beta period started in early December of 2019 with the standard certification exam availability target date being April of 2020.  At the start of December, I participated in the beta attempting the beta exams.  As of this writing, I do not know my results and whether on not I achieved the certification.  Nevertheless, I thought it would be useful to share my experience.  I'll try to list the topics covered by the exam questions, and provide some insight and resources that are helpful in preparing for the exam.</p>
+<p>The contents of this blog post can also be found in my GitHub repo <a href="https://github.com/borkod/AWS-Certified-Database-Specialty-Exam-Guide">here</a>.</p>
+<h2 id="exam-description">Exam Description</h2>
+<p>The database certification exam covers five domains:</p>
+<ul>
+<li>Domain 1: Workload-Specific Database Design (26%)</li>
+<li>Domain 2: Deployment and Migration (20%)</li>
+<li>Domain 3: Management and Operations (18%)</li>
+<li>Domain 4: Monitoring and Troubleshooting (18%)</li>
+<li>Domain 5: Database Security (18%)</li>
+</ul>
+<p>The exam's goal is to test user's competence to:</p>
+<ul>
+<li>Understand the various AWS database services</li>
+<li>Recommend and design database solutions appropriate to satisfy specific problem requirements</li>
+</ul>
+<p>AWS suggests that the examinee has:</p>
+<ul>
+<li>Minimum of 5 years of experience working with relational and NoSQL databases, including on-prem and cloud based implementations</li>
+<li>Minimum of 2 years of hand-on experience with AWS</li>
+</ul>
+<h2 id="exam-topics">Exam Topics</h2>
+<ul>
+<li><strong>Amazon RDS</strong> is one of the core services offered by AWS, so having good understanding and thorough knowledge of this service is critical to succeeding in the exam.
+<ul>
+<li>You should have expertise in analyzing and identifying requirements / use cases when a relational database (and specifically RDS) is the appropriate solution.  You should also have a good understanding of the service capabilities and limitations.</li>
+<li>Multi-AZ: Know technical details of its implementation and when it is appropriate (e.g. disaster recovery scenarios)</li>
+<li>Read-Replicas: Know technical details and in what situations is it useful (e.g. off-loading read traffic)</li>
+<li>Know the numerous engine options RDS has available
+<ul>
+<li>There are engine specific questions, so you should have some familiarity with each engine (e.g. Oracle TDE, PostgreSQL specific capabilities)</li>
+</ul>
+</li>
+<li>Backups</li>
+<li>Option Groups</li>
+<li>DB Parameter Groups</li>
+<li>SQL Performance Insights (what is it, when is it applicable, and how is it different from CloudWatch)</li>
+</ul>
+</li>
+<li>Alongside RDS, <strong>DynamoDB</strong> is probably the most crucial of AWS database services.  You should know it inside and out.
+<ul>
+<li>Understand Primary Keys/Partition Keys/Sort Keys.  Given a particular scenario, be able to design/choose them.</li>
+<li>Global Secondary Indexes / Local Secondary Indexes.  Understand difference between them and applicable use cases.</li>
+<li>DynamoDB Streams</li>
+<li>Global Tables (and its use cases)</li>
+<li>Data Modeling
+<ul>
+<li>Partition Sharding (e.g. adding random suffix)</li>
+<li>Composite Keys</li>
+</ul>
+</li>
+<li>Design patterns and best practices</li>
+<li>Querying and Filtering</li>
+<li>DAX (vs ElastiCache)</li>
+<li>Have a good understanding of the underlying technical architecture</li>
+</ul>
+</li>
+<li><strong>Amazon Aurora</strong>
+<ul>
+<li>Understand the technical architecture and use cases</li>
+<li>Difference between Aurora Read Replicas/RDS Read Replicas</li>
+<li>Scaling of Aurora</li>
+<li>Understand Aurora Serverless</li>
+<li>Understand Aurora Clones and when to you should use them</li>
+</ul>
+</li>
+<li><strong>CloudWatch</strong>
+<ul>
+<li>Understand the service functionality</li>
+<li>How to use in troubleshooting scenarios</li>
+<li>Performance monitoring and notification/alerting scenarios</li>
+</ul>
+</li>
+<li><strong>Database Migration</strong>
+<ul>
+<li>There are questions around AWS SCT (Schema Conversion Tool) and AWS DMS (Database Migration Service).  You should have a general understanding of both, difference between them, and when you would use one vs the other.</li>
+</ul>
+</li>
+<li><strong>ElastiCache</strong>
+<ul>
+<li>Have a good understanding of use cases when caching is appropriate</li>
+<li>Focus on Redis</li>
+<li>Understand Redis architecture, Multi-AZ, etc.</li>
+<li>Understand various caching strategies (Lazy Loading, Write-Through) and benefits/limitation of each</li>
+</ul>
+</li>
+<li><strong>DocumentDB</strong>
+<ul>
+<li>I don't recall many questions on this service, however you should have general familiarity with it</li>
+</ul>
+</li>
+<li><strong>Redshift</strong>
+<ul>
+<li>Have a general understanding of data-warehouse topics and columnar storage</li>
+<li>Be familiar with technical architecture (single node deployment / cluster with leader and compute nodes)</li>
+<li>Be familiar with Redshift Spectrum</li>
+<li>Understand use cases for Redshift (e.g. Business Intelligence and Reporting).  Be able to differentiate applicability of Redshift vs RDS.</li>
+</ul>
+</li>
+<li><strong>Neptune</strong>
+<ul>
+<li>I don't recall many questions here.  However, you should have general understanding of graph database concepts and graph database applications.</li>
+<li>I suggest being familiar with its technical architecture</li>
+<li>Know supported APIs (Gremlin, SPARQL) and models (Property Graph/TinkerPop and W3C RDF/SPARQL)</li>
+</ul>
+</li>
+<li><strong>Security</strong>
+<ul>
+<li>Understand options and solutions for data encryption (both data at rest and data in transit)</li>
+<li>Authentication options and capabilities</li>
+<li>Access Management (IAM)</li>
+<li>Have good understanding of services like Parameter Store and KMS</li>
+</ul>
+</li>
+<li><strong>Networking</strong>
+<ul>
+<li>Understand how to integrate various services with VPC (e.g. VPC Endpoints)</li>
+<li>Know how to secure access at network level</li>
+</ul>
+</li>
+<li><strong>Solutions Architecture</strong>
+<ul>
+<li>There were a number of questions very reminiscent of questions from AWS Solutions Architect Exam.  I <em>strongly</em> suggest attaining AWS Solutions Architect Associate Certification before attempting this specialty exam.</li>
+<li>Understand AWS Lambda and how it can be used in conjunction with all the other services mentioned above</li>
+<li>Expect questions on High Availability, Disaster Recovery, and Fault Tolerance</li>
+</ul>
+</li>
+<li><strong>Deployment and CI/CD</strong>
+<ul>
+<li>There were quite a few (more than I expected) questions relating to deployment and CI/CD concepts.  I would <em>strongly</em> suggest attaining the AWS DevOps Engineer Professional certification prior to writing this specialty exam (or at least AWS Developer Associate Certification).  You need to understand the various DevOps services AWS offers (e.g. CloudFormation, CodeBuild, CodeDeploy) and how they can be utilized to assist deployment scenarios.</li>
+</ul>
+</li>
+</ul>
+<h2 id="general-tips">General Tips</h2>
+<p>As mentioned above, I strongly suggest having both AWS Solutions Architect - Associate and AWS Certified Developer - Associate certifications (or preferably AWS DevOps Engineer - Professional) prior to entering to write this specialty exam. The experience and knowledge required to attain those certifications will go a long way in helping you do well in this exam.</p>
+<p>As suggested by AWS, you should have significant experience designing and implementing solutions consisting of various database technologies.  This experience should include considerable understanding and practical use of AWS services.</p>
+<p>Lastly, I suggest reviewing official AWS documentation, whitepapers, blogs, and videos.  In particular, I found advanced level Re:Invent and Tech Talk videos particularly useful.</p>
+<h2 id="resources">Resources</h2>
+<p>Below is a list of few links I found especially informative.</p>
+<ul>
+<li>Check out the excellent <a href="https://aws.amazon.com/whitepapers/">AWS Whitepapers &amp; Guides</a>.  There are numerous papers/guides on database services and best practices.</li>
+<li><a href="https://www.youtube.com/watch?v=igRfulrrYCo">Amazon Relational Database Service (Amazon RDS)</a></li>
+<li><a href="https://www.youtube.com/watch?v=TJxC-B9Q9tQ">AWS re:Invent 2017: Deep Dive on Amazon Relational Database Service (RDS) (DAT302)</a></li>
+<li><a href="https://www.youtube.com/watch?v=4DqNk7ZTYjA">AWS re:Invent 2018: Aurora Serverless: Scalable, Cost-Effective Application Deployment (DAT336)</a></li>
+<li><a href="https://www.youtube.com/watch?v=WeXXtBNtwxk">Migrating Microsoft SQL to AWS - AWS Online Tech Talks</a> - Contains a good demo of DMS</li>
+<li><a href="https://www.youtube.com/watch?v=_YYBdsuUq2M">AWS re:Invent 2017: ElastiCache Deep Dive: Best Practices and Usage Patterns (DAT305)</a></li>
+<li><a href="https://www.youtube.com/watch?v=QxcB53mL_oA">AWS re:Invent 2018: ElastiCache Deep Dive: Design Patterns for In-Memory Data Stores (DAT302-R1)</a></li>
+<li><a href="https://www.youtube.com/watch?v=yvBR71D0nAQ">AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database (DAT321)</a></li>
+<li><a href="https://www.youtube.com/watch?v=tJ0TWdIocz0">AWS re:Invent 2018: Accelerate Database Development and Testing with Amazon Aurora (DAT313)</a></li>
+<li><a href="https://www.youtube.com/watch?v=KPtLbSEFe6c">Data Design and Modeling for Microservices</a></li>
+<li><a href="https://www.youtube.com/watch?time_continue=1&amp;v=Q_K3qH5OYaM">AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift &amp; Redshift Spectrum (ABD304)</a></li>
+<li><a href="https://www.youtube.com/watch?v=HaEPXoXVf2k">AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)</a></li>
+</ul>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>In my opinion, AWS Database Specialty is an excellent addition to the AWS Certification program.  Database technologies are an integral and crucial part of any cloud based solution. Having a strong competency in these technologies is critical to being a successful architect and designing apt solutions.</p>
+<p>I hope this guide and contents within are helpful to those preparing to attempt the exam in the future.</p>
+<p>Good Luck!</p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/" title="AWS Certified Database - Specialty Exam Preparation Guide and Study Tips" target="_blank" rel="external">https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://borkod.github.io/" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://borkod.github.io/profile.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://borkod.github.io/" target="_blank"><span class="text-dark">Borko D.</span><small class="ml-1x">Cloud Solutions Architect</small></a></h3>
+        <div>Cloud Solutions Architect</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://borkod.github.io/about/" title="About"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="twitter, linkedin"
+                data-mobile-sites="twitter,linkedin"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/borkod" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://linkedin.com/borkod" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="https://twitter.com/" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2019  -
+    2020
+    
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://borkod.github.io/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://borkod.github.io/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/borkod.github.io\/',
+            CONTENT_URL: 'https:\/\/borkod.github.io\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://borkod.github.io/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js" defer></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '00396fcd7dbd4f0e34b8',
+        clientSecret: '7bce4ecf8ab35c2f966de08c5a6ffbfaebdd9dc0',
+        repo: 'borkod.github.io',
+        owner: 'borkod',
+        admin: ['borkod'],
+        id: md5(location.pathname),
+        distractionFreeMode: true
+    });
+    gitalk.render('comments');
+</script>
+  </body>
+</html>
