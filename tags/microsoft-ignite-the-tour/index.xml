@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Ignite the Tour on Borko D.</title>
+    <link>https://borkod.github.io/tags/microsoft-ignite-the-tour/</link>
+    <description>Recent content in Microsoft Ignite the Tour on Borko D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 11 Jan 2020 14:00:41 -0500</lastBuildDate>
+    
+        <atom:link href="https://borkod.github.io/tags/microsoft-ignite-the-tour/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft Ignite the Tour Toronto Recap</title>
+      <link>https://borkod.github.io/2020/01/microsoft-ignite-the-tour-toronto-recap/</link>
+      <pubDate>Sat, 11 Jan 2020 14:00:41 -0500</pubDate>
+      
+      <guid>https://borkod.github.io/2020/01/microsoft-ignite-the-tour-toronto-recap/</guid>
+      <description>Some intro content
+  More content.
+⚡️ “Highlights from #MSIgniteTheTour Toronto Day 1”https://t.co/oPvCLNWS1a
+&amp;mdash; Microsoft IT Pro Canada (@MS_ITProCA) January 8, 2020  </description>
+    </item>
+    
+    <item>
+      <title>AWS Certified Database - Specialty Exam Preparation Guide and Study Tips</title>
+      <link>https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</link>
+      <pubDate>Fri, 03 Jan 2020 23:09:45 -0500</pubDate>
+      
+      <guid>https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</guid>
+      <description>In late November of 2019, AWS announced a new specialty certification focusing specifically on database technologies. The AWS Certified Database - Specialty Exam beta period started in early December of 2019 with the standard certification exam availability target date being April of 2020. At the start of December, I participated in the beta attempting the beta exams. As of this writing, I do not know my results and whether on not I achieved the certification.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://borkod.github.io/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://borkod.github.io/about/</guid>
+      <description>I am a Cloud Solutions Architect with the goal of helping people take advantage of cloud technologies provided by Azure and AWS. I have huge interests in learning, technology and science. You can learn more about me here.
+This blog is a place I occasionally try to write some thoughts on Cloud computing and related topics. I hope others find them useful, insightful, or just interesting.
+The blog is hosted using Github Pages.</description>
+    </item>
+    
+  </channel>
+</rss>
