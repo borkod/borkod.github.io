@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serverless on Borko D.</title>
+    <link>https://borkod.github.io/tags/serverless/</link>
+    <description>Recent content in Serverless on Borko D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 09 Mar 2020 08:05:23 -0500</lastBuildDate>
+    
+        <atom:link href="https://borkod.github.io/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Functions Binding Expressions Parameterization</title>
+      <link>https://borkod.github.io/2020/03/azure-functions-binding-expressions-parameterization/</link>
+      <pubDate>Mon, 09 Mar 2020 08:05:23 -0500</pubDate>
+      
+      <guid>https://borkod.github.io/2020/03/azure-functions-binding-expressions-parameterization/</guid>
+      <description>Azure Functions is an event driven, serverless computing service provided by Microsoft Azure Cloud platform. Azure Functions allows developers to deploy code connecting to data sources or messaging solutions thus enabling easier implementation of event driven processing of messages. Azure Functions, like rest of serverless computing, is designed to accelerate and simplify application development by removing the responsibility of infrastructure management.
+Azure Functions uses concept of bindings as a way of declaratively connecting another resource to the function.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Ignite the Tour: Toronto Recap</title>
+      <link>https://borkod.github.io/2020/01/microsoft-ignite-the-tour-toronto-recap/</link>
+      <pubDate>Sat, 11 Jan 2020 14:00:41 -0500</pubDate>
+      
+      <guid>https://borkod.github.io/2020/01/microsoft-ignite-the-tour-toronto-recap/</guid>
+      <description>Microsoft Ignite the Tour conference is a two-day version of Microsoft&#39;s annual Ignite technology conference that Microsoft is bringing to a number of cities around the world. Last week I had the opportunity to attend the conference in Toronto. As usual at these types of events, there was &amp;ldquo;The Hub&amp;rdquo;, a central meeting place where large number of sponsors had booths set up demonstrating their products or services and giving out SWAG.</description>
+    </item>
+    
+    <item>
+      <title>AWS Certified Database - Specialty Exam Preparation Guide and Study Tips</title>
+      <link>https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</link>
+      <pubDate>Fri, 03 Jan 2020 23:09:45 -0500</pubDate>
+      
+      <guid>https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</guid>
+      <description>In late November of 2019, AWS announced a new specialty certification focusing specifically on database technologies. The AWS Certified Database - Specialty Exam beta period started in early December of 2019 with the standard certification exam availability target date being April of 2020. At the start of December, I participated in the beta attempting the beta exams. As of this writing, I do not know my results and whether on not I achieved the certification.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://borkod.github.io/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://borkod.github.io/about/</guid>
+      <description>I am a Cloud Solutions Architect with the goal of helping people take advantage of cloud technologies provided by Azure and AWS. I have huge interests in learning, technology and science. You can learn more about me here.
+This blog is a place I occasionally try to write some thoughts on Cloud computing and related topics. I hope others find them useful, insightful, or just interesting.
+The blog is hosted using Github Pages.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,10 +5,20 @@
     <link>https://borkod.github.io/tags/microsoft/</link>
     <description>Recent content in Microsoft on Borko D.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jan 2020 14:00:41 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 08:05:23 -0500</lastBuildDate>
     
         <atom:link href="https://borkod.github.io/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Functions Binding Expressions Parameterization</title>
+      <link>https://borkod.github.io/2020/03/azure-functions-binding-expressions-parameterization/</link>
+      <pubDate>Mon, 09 Mar 2020 08:05:23 -0500</pubDate>
+      
+      <guid>https://borkod.github.io/2020/03/azure-functions-binding-expressions-parameterization/</guid>
+      <description>Azure Functions is an event driven, serverless computing service provided by Microsoft Azure Cloud platform. Azure Functions allows developers to deploy code connecting to data sources or messaging solutions thus enabling easier implementation of event driven processing of messages. Azure Functions, like rest of serverless computing, is designed to accelerate and simplify application development by removing the responsibility of infrastructure management.
+Azure Functions uses concept of bindings as a way of declaratively connecting another resource to the function.</description>
+    </item>
     
     <item>
       <title>Microsoft Ignite the Tour: Toronto Recap</title>
