@@ -43,7 +43,7 @@
 <meta itemprop="description" content="How to Parametrize Binding Expression for Azure Function">
 <meta itemprop="datePublished" content="2020-03-09T08:05:23-05:00" />
 <meta itemprop="dateModified" content="2020-03-09T08:05:23-05:00" />
-<meta itemprop="wordCount" content="355">
+<meta itemprop="wordCount" content="370">
 
 
 
@@ -289,7 +289,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/03/azure-functions-binding-expressions-parameterization/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 355words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 370words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
       </div>
     </div>
@@ -329,10 +329,9 @@
     ...
 }
 </code></pre>
-<p>Then add an Application setting with corresponding name (<code>customGroupName</code> in this case):
-<img src="https://borkod.github.io/Azure-Functions-Binding-Expressions-Parameterization/function-custom.png" alt="Alt">
-<img src="https://borkod.github.io/Azure-Functions-Binding-Expressions-Parameterization/app-settings-custom.png" alt="Alt">
-Consumer group will then be resolved to the value in Application Settings at startup.</p>
+<p>Then add an Application setting with corresponding name (<code>customGroupName</code> in this case).</p>
+<p>Here are couple of screenshots of the <a href="https://borkod.github.io/Azure-Functions-Binding-Expressions-Parameterization/function-custom.png">function settings</a> and <a href="https://borkod.github.io/Azure-Functions-Binding-Expressions-Parameterization/app-settings-custom.png">application settings</a> with these updates.</p>
+<p>Consumer group will then be resolved to the value in Application Settings at startup.</p>
 <p>Same method can be used for binding for other services and it works for trigger, input, and output bindings.</p>
 <p>Hope this is helpful!</p>
 
