@@ -5,10 +5,20 @@
     <link>https://borkod.github.io/tags/</link>
     <description>Recent content in Tags on Borko D.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 09 Mar 2020 08:05:23 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 14:43:59 -0400</lastBuildDate>
     
         <atom:link href="https://borkod.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Global Load Balancing Comparison</title>
+      <link>https://borkod.github.io/2020/03/azure-global-load-balancing-comparison/</link>
+      <pubDate>Sun, 29 Mar 2020 14:43:59 -0400</pubDate>
+      
+      <guid>https://borkod.github.io/2020/03/azure-global-load-balancing-comparison/</guid>
+      <description>Global load-balancing services distribute traffic across applications and endpoints hosted across different regions/geographies. These services route end-user traffic to the available backend based on configurable routing rules. They also feature endpoint monitoring in order to improve high availability and reliability of backend services. Azure offers two global load-balancing services: Azure Traffic Manager and Azure Front Door.
+Traffic Manager is a DNS-based traffic load balancer that distributes traffic to services across global Azure regions.</description>
+    </item>
     
     <item>
       <title>Azure Functions Binding Expressions Parameterization</title>

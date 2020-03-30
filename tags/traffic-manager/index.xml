@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AWS on Borko D.</title>
-    <link>https://borkod.github.io/tags/aws/</link>
-    <description>Recent content in AWS on Borko D.</description>
+    <title>Traffic Manager on Borko D.</title>
+    <link>https://borkod.github.io/tags/traffic-manager/</link>
+    <description>Recent content in Traffic Manager on Borko D.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Jan 2020 23:09:45 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 14:43:59 -0400</lastBuildDate>
     
-        <atom:link href="https://borkod.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://borkod.github.io/tags/traffic-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
