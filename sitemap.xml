@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://borkod.github.io/tags/azure/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/2020/03/azure-global-load-balancing-comparison/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/front-door/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/load-balancing/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/microsoft/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/posts/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/traffic-manager/</loc>
+    <lastmod>2020-03-29T14:43:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/2020/03/azure-functions-binding-expressions-parameterization/</loc>
+    <lastmod>2020-03-09T08:05:23-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/functions/</loc>
+    <lastmod>2020-03-09T08:05:23-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/serverless/</loc>
+    <lastmod>2020-03-09T08:05:23-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/tips-and-tricks/</loc>
+    <lastmod>2020-03-09T08:05:23-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/ignite/</loc>
+    <lastmod>2020-01-11T14:00:41-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/microsoft-ignite-the-tour/</loc>
+    <lastmod>2020-01-11T14:00:41-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/2020/01/microsoft-ignite-the-tour-toronto-recap/</loc>
+    <lastmod>2020-01-11T14:00:41-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/recap/</loc>
+    <lastmod>2020-01-11T14:00:41-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/toronto/</loc>
+    <lastmod>2020-01-11T14:00:41-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/aws/</loc>
+    <lastmod>2020-01-03T23:09:45-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/2020/01/aws-certified-database-specialty-exam-guide/</loc>
+    <lastmod>2020-01-03T23:09:45-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/certification/</loc>
+    <lastmod>2020-01-03T23:09:45-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/database/</loc>
+    <lastmod>2020-01-03T23:09:45-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/tags/study-guide/</loc>
+    <lastmod>2020-01-03T23:09:45-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/about/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://borkod.github.io/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
