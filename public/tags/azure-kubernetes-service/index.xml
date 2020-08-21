@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Azure Kubernetes Service - Tag - Borko Djurkovic Website</title>
+        <link>http://www.b3o.ca/tags/azure-kubernetes-service/</link>
+        <description>Azure Kubernetes Service - Tag - Borko Djurkovic Website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>borkod@b3o.ca (Borko)</managingEditor>
+            <webMaster>borkod@b3o.ca (Borko)</webMaster><lastBuildDate>Wed, 19 Aug 2020 20:53:21 -0400</lastBuildDate><atom:link href="http://www.b3o.ca/tags/azure-kubernetes-service/" rel="self" type="application/rss+xml" /><item>
+    <title>Musings on Kubernetes</title>
+    <link>http://www.b3o.ca/musings-on-kubernetes/</link>
+    <pubDate>Wed, 19 Aug 2020 20:53:21 -0400</pubDate>
+    <author>Author</author>
+    <guid>http://www.b3o.ca/musings-on-kubernetes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image" referrerpolicy="no-referrer">
+            </div>It has been really busy few months! Over the past few months, my work has started focusing very heavily on Kubernetes technology. Coupled with the global COVID situation eliminating summer travel and social activities, I&rsquo;ve taken that opportunity to really immerse myself into the Kubernetes technology ecosystem. I thought I&rsquo;d share a few random thoughts/ideas/opinions I&rsquo;ve developed as I&rsquo;ve been expanding my knowledge and experience with this technology.
+Certifications Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation, offers two certification programs for those looking to validate their Kubernetes knowledge or obtain an industry accreditation.]]></description>
+</item></channel>
+</rss>

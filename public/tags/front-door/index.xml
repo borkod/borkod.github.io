@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Front Door - Tag - Borko Djurkovic Website</title>
+        <link>http://www.b3o.ca/tags/front-door/</link>
+        <description>Front Door - Tag - Borko Djurkovic Website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>borkod@b3o.ca (Borko)</managingEditor>
+            <webMaster>borkod@b3o.ca (Borko)</webMaster><lastBuildDate>Sun, 29 Mar 2020 21:43:04 -0400</lastBuildDate><atom:link href="http://www.b3o.ca/tags/front-door/" rel="self" type="application/rss+xml" /><item>
+    <title>Azure Global Load Balancing Comparison</title>
+    <link>http://www.b3o.ca/azure-global-load-balancing-comparison/</link>
+    <pubDate>Sun, 29 Mar 2020 21:43:04 -0400</pubDate>
+    <author>Author</author>
+    <guid>http://www.b3o.ca/azure-global-load-balancing-comparison/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image" referrerpolicy="no-referrer">
+            </div>Global load-balancing services distribute traffic across applications and endpoints hosted across different regions/geographies. These services route end-user traffic to the available backend based on configurable routing rules. They also feature endpoint monitoring in order to improve high availability and reliability of backend services. Azure offers two global load-balancing services: Azure Traffic Manager and Azure Front Door.
+Traffic Manager is a DNS-based traffic load balancer that distributes traffic to services across global Azure regions.]]></description>
+</item></channel>
+</rss>

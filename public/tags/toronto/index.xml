@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Toronto - Tag - Borko Djurkovic Website</title>
+        <link>http://www.b3o.ca/tags/toronto/</link>
+        <description>Toronto - Tag - Borko Djurkovic Website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>borkod@b3o.ca (Borko)</managingEditor>
+            <webMaster>borkod@b3o.ca (Borko)</webMaster><lastBuildDate>Sat, 11 Jan 2020 21:43:04 -0400</lastBuildDate><atom:link href="http://www.b3o.ca/tags/toronto/" rel="self" type="application/rss+xml" /><item>
+    <title>Microsoft Ignite the Tour Toronto Recap</title>
+    <link>http://www.b3o.ca/microsoft-ignite-the-tour-toronto-recap/</link>
+    <pubDate>Sat, 11 Jan 2020 21:43:04 -0400</pubDate>
+    <author>Author</author>
+    <guid>http://www.b3o.ca/microsoft-ignite-the-tour-toronto-recap/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image" referrerpolicy="no-referrer">
+            </div>Microsoft Ignite the Tour conference is a two-day version of Microsoft&rsquo;s annual Ignite technology conference that Microsoft is bringing to a number of cities around the world. Last week I had the opportunity to attend the conference in Toronto. As usual at these types of events, there was “The Hub”, a central meeting place where large number of sponsors had booths set up demonstrating their products or services and giving out SWAG.]]></description>
+</item></channel>
+</rss>

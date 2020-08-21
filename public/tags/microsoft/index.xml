@@ -1,0 +1,47 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Microsoft - Tag - Borko Djurkovic Website</title>
+        <link>http://www.b3o.ca/tags/microsoft/</link>
+        <description>Microsoft - Tag - Borko Djurkovic Website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>borkod@b3o.ca (Borko)</managingEditor>
+            <webMaster>borkod@b3o.ca (Borko)</webMaster><lastBuildDate>Wed, 19 Aug 2020 20:53:21 -0400</lastBuildDate><atom:link href="http://www.b3o.ca/tags/microsoft/" rel="self" type="application/rss+xml" /><item>
+    <title>Musings on Kubernetes</title>
+    <link>http://www.b3o.ca/musings-on-kubernetes/</link>
+    <pubDate>Wed, 19 Aug 2020 20:53:21 -0400</pubDate>
+    <author>Author</author>
+    <guid>http://www.b3o.ca/musings-on-kubernetes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image" referrerpolicy="no-referrer">
+            </div>It has been really busy few months! Over the past few months, my work has started focusing very heavily on Kubernetes technology. Coupled with the global COVID situation eliminating summer travel and social activities, I&rsquo;ve taken that opportunity to really immerse myself into the Kubernetes technology ecosystem. I thought I&rsquo;d share a few random thoughts/ideas/opinions I&rsquo;ve developed as I&rsquo;ve been expanding my knowledge and experience with this technology.
+Certifications Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation, offers two certification programs for those looking to validate their Kubernetes knowledge or obtain an industry accreditation.]]></description>
+</item><item>
+    <title>Azure Global Load Balancing Comparison</title>
+    <link>http://www.b3o.ca/azure-global-load-balancing-comparison/</link>
+    <pubDate>Sun, 29 Mar 2020 21:43:04 -0400</pubDate>
+    <author>Author</author>
+    <guid>http://www.b3o.ca/azure-global-load-balancing-comparison/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image" referrerpolicy="no-referrer">
+            </div>Global load-balancing services distribute traffic across applications and endpoints hosted across different regions/geographies. These services route end-user traffic to the available backend based on configurable routing rules. They also feature endpoint monitoring in order to improve high availability and reliability of backend services. Azure offers two global load-balancing services: Azure Traffic Manager and Azure Front Door.
+Traffic Manager is a DNS-based traffic load balancer that distributes traffic to services across global Azure regions.]]></description>
+</item><item>
+    <title>Azure Functions Binding Expression Parameterization</title>
+    <link>http://www.b3o.ca/azure-functions-binding-expression-parameterization/</link>
+    <pubDate>Mon, 09 Mar 2020 21:43:04 -0400</pubDate>
+    <author>Author</author>
+    <guid>http://www.b3o.ca/azure-functions-binding-expression-parameterization/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image" referrerpolicy="no-referrer">
+            </div>Azure Functions is an event driven, serverless computing service provided by Microsoft Azure Cloud platform. Azure Functions allows developers to deploy code connecting to data sources or messaging solutions thus enabling easier implementation of event driven processing of messages. Azure Functions, like rest of serverless computing, is designed to accelerate and simplify application development by removing the responsibility of infrastructure management.
+Azure Functions uses concept of bindings as a way of declaratively connecting another resource to the function.]]></description>
+</item><item>
+    <title>Microsoft Ignite the Tour Toronto Recap</title>
+    <link>http://www.b3o.ca/microsoft-ignite-the-tour-toronto-recap/</link>
+    <pubDate>Sat, 11 Jan 2020 21:43:04 -0400</pubDate>
+    <author>Author</author>
+    <guid>http://www.b3o.ca/microsoft-ignite-the-tour-toronto-recap/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image" referrerpolicy="no-referrer">
+            </div>Microsoft Ignite the Tour conference is a two-day version of Microsoft&rsquo;s annual Ignite technology conference that Microsoft is bringing to a number of cities around the world. Last week I had the opportunity to attend the conference in Toronto. As usual at these types of events, there was “The Hub”, a central meeting place where large number of sponsors had booths set up demonstrating their products or services and giving out SWAG.]]></description>
+</item></channel>
+</rss>
