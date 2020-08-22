@@ -1,8 +1,8 @@
-baseURL = "http://www.b3o.ca/"
+baseURL = "http://blog.b3o.ca/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Borko Djurkovic Website"
+title = "Borko Djurkovic - Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -15,7 +15,7 @@ theme = "LoveIt"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "About"
-    url = "/about/"
+    url = "https://www.b3o.ca"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
@@ -43,9 +43,9 @@ theme = "LoveIt"
   #  LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "Borko Djurkovic Website"
+  description = "Borko Djurkovic Blog"
   # site keywords
-  keywords = ["Borko", "Djurkovic", "Azure", "Kubernetes", "DevOps", "Cloud", "Consultant", "Cloud Architect"]
+  keywords = ["Borko", "Djurkovic", "Azure", "Kubernetes", "DevOps", "Cloud", "Consultant", "Cloud Architect", "Blog"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
@@ -61,7 +61,7 @@ theme = "LoveIt"
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Borko Djurkovic Website"
+    title = "Borko Djurkovic - Blog"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -106,7 +106,7 @@ theme = "LoveIt"
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Borko Djurkovic"
+      name = "Borko Djurkovic - Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -182,9 +182,9 @@ theme = "LoveIt"
 
   # Social config about the author
   [params.social]
+    Twitter = "borkod"
     GitHub = "borkod"
     Linkedin = "borkod"
-    Twitter = "borkod"
     Instagram = ""
     Facebook = ""
     Telegram = ""
@@ -470,7 +470,7 @@ theme = "LoveIt"
 
   #  Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
