@@ -164,7 +164,7 @@ theme = "LoveIt"
       #  title shown in home page (HTML format is supported)
       title = "Cloud Solutions Architect"
       # subtitle shown in home page
-      subtitle = "Cloud Solutions Architect. DevOps Engineer. IT Consultant. Passionate about cloud ☁️ DevOps and Automation 🚀 Kubernetes 🚢 and Terraform."
+      subtitle = "Cloud Solutions Architect. DevOps Engineer. IT Consultant. Passionate about cloud ☁️ DevOps/Automation 🚀 Kubernetes 🚢 and Terraform. Active Runner 🏃‍♂"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
@@ -470,7 +470,7 @@ theme = "LoveIt"
 
   #  Cookie consent config
   [params.cookieconsent]
-    enable = false
+    enable = true
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
