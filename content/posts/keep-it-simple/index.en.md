@@ -1,12 +1,11 @@
 ---
 title: "The simplest solution is usually the best"
-date: 2020-09-14T20:53:21-04:00
+date: 2020-09-15T20:53:21-04:00
 draft: false
 description : "The simplest solution is usually the best"
 tags : [
     "Architecture",
-    "System Design",
-    "Application Design"
+    "Software Design"
 ]
 author: "Borko"
 authorLink: "https://www.b3o.ca"
