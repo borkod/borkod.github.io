@@ -46,7 +46,7 @@ The book is available as a [free e-book](https://azure.microsoft.com/en-us/resou
 
 [Operating Kubernetes Clusters and Applications Safely](https://kubernetes-security.info/) is a book that tries to cover security in the Kubernetes technology landscape. This is an extremely important topic for anybody looking to understand Kubernetes at a deep level or utilize the technology in an enterprise production environment. This is a very short book at only around 80 pages and only gives a very brief overview of security related subject matter. Content-wise, there isn't really much in here that anybody with a good understanding of Kubernetes would not already be familiar with. The biggest value this book brings are the very numerous links to supplementary online material (e.g. blog posts, white papers) that allows one to delve deeper into various topics.
 
-### Kubernetes Patterns Reusable Elements for Designing Cloud-Native Applications
+### Kubernetes Patterns: Reusable Elements for Designing Cloud-Native Applications
 
 ![Kubernetes Patterns: Reusable Elements for Designing Cloud-Native Applications](https://k8spatterns.io/images/cover.png) 
 
