@@ -493,17 +493,25 @@ bilibili:
   Icon:
     Src: svg/icons/bilibili.svg
 
-# 063: Email
-email:
+# 063: Buy Me A Coffee
+buymeacoffee:
   Weight: 63
+  Prefix: https://www.buymeacoffee.com/
+  Title: BuyMeACoffee
+  Icon:
+    Class: fas fa-coffee fa-fw
+
+# 064: Email
+email:
+  Weight: 64
   Template: mailto:%v
   Title: Email
   Icon:
     Class: far fa-envelope fa-fw
 
-# 064: RSS
+# 065: RSS
 rss:
-  Weight: 64
+  Weight: 65
   Url: /index.xml
   Title: RSS
   Newtab: true

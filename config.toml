@@ -246,6 +246,7 @@ theme = "LoveIt"
     Bilibili = ""
     Email = "borkod@b3o.com"
     RSS = true # 
+    BuyMeACoffee = "borkod"
 
   #  Page config
   [params.page]
