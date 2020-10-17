@@ -33,4 +33,6 @@ In the same way, I am a frequent consumer of open source software in my daily pe
 
 I am a big fan and user of HashiCorp [Terraform](https://www.terraform.io/), especially their [Azure Terraform provider](https://github.com/terraform-providers/terraform-provider-azurerm). As such, I wanted to give back to the product I use frequently and also help others learn and apply the platform. So I thought the best way to accomplish that was to use my experience and add samples to the collection of [examples](https://github.com/terraform-providers/terraform-provider-azurerm). By providing some reference implementations, my hope is that others find them useful in solving their problems in the future. And it also helped close few open issues in the repository along the way. As a bonus, I ended up learning few new things about Terraform and Azure too!
 
+![Hacktoberfest Contributions](contributions.JPG) 
+
 Overall, my first Hacktoberfest was a great experience. It's a great initiative to promote open source communities and contributions. I really feel that the event is a positive force in the IT and OSS ecosystem, and I hope it continues to inspire people to create more PR's.
